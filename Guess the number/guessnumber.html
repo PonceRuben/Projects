@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Guess the number</title>
+	<link rel="stylesheet" type="text/css" href="guessnumber.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Press+Start+2P&display=swap" rel="stylesheet">
+<title></title>  
+</head>
+<body>
+	<div class="contenedor">
+		<div class="arriba">
+			<button class="reset">Again!</button>
+			<div class="rules"><p>(Between 1 and 20)</p></div>
+		</div>
+		<h1 class="titulo">Guess my Number!</h1>
+		<div class="medio">
+			<div class="linea"></div>
+			<div class="caja-blanca"><p class="caja">??</p></div>
+		</div>
+		<div class="abajo-izquierda">
+			<form>
+			<input type="number" class="numero-del-usuario"><br>
+			<button type="submit" class="submit">Check!</button>
+			</form>
+		</div>
+		<div class="abajo-derecha">	
+			<p class="mensaje"><span class="mensaje">Start guessing...</p><br><br><br>
+			<p>💯 Score: <span class="score">20</span></p><br>
+			<p>🏅 Highscore: <span class="highscore">0</span></p>
+		</div>
+	</div>
+<script src="guessnumber.js"></script>
+</body>
+</html>

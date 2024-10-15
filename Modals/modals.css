@@ -1,0 +1,81 @@
+body {
+	background-image: linear-gradient(to right,#78D06A, #28743C);
+	background-size: cover;
+}
+
+.container {
+	margin-top: 35px;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.modal {
+	display: none;
+	background-color: #222222bd;
+	backdrop-filter: blur(10px);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+.modal-content { 
+	background-color: white;
+	margin: auto;
+	width: 70%;
+	padding: 15px 15px 50px 50px;
+	border-radius: 5px;
+
+}
+
+
+.close {
+	float: right;
+	font-size: 30px;
+}
+
+.close:hover{
+	font-weight: bold;
+}
+
+
+
+#openModal1Btn {
+	margin: 5px;
+	height: auto;
+	width: auto;
+	padding: 10px 30px 10px 30px;
+	border-radius: 30px;
+	border: 0px;
+}
+
+#openModal2Btn {
+	margin: 5px;
+	height: auto;
+	width: auto;
+	padding: 10px 30px 10px 30px;
+	border-radius: 30px;
+	border: 0px;
+}
+
+#openModal3Btn {
+	margin: 5px;
+	height: auto;
+	width: auto;
+	padding: 10px 30px 10px 30px;
+	border-radius: 30px;
+	border: 0px;
+}
+
+.title {
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+
+.text {
+	margin-right: 30px;
+}
